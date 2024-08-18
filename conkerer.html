@@ -4,25 +4,55 @@
 
 <p>Enter a distance in the text field, then click the "Save" button to save data in the local storage. Click the "Get" button to retrieve the saved data.</p>
 
-<input id="kilometers" type="text" placeholder="Enter distance in kilometers"/>
+<p>I have run a total of <input id="kilometers" type="text" placeholder="0.00"/> kilometers</p>
 <button onclick="saveDistance()">Save</button>
-<button onclick="getDistance()">Get</button>
+<button onclick="getDistance()">Load</button>
+
+<div id="content" />
+
+<!-- SCRIPTS :) -->
 
 <script>
+
+const chapters = [
+  `<div>This is the first chapter content</div>`,
+  `<div>This is the second chapter content</div>`,
+  `<div>This is the third chapter content</div>`,
+  // add more chapters as desired...
+];
+
+function displayChapters(chapterNumber) {
+  // Clear previous content
+  const contentDiv = document.getElementById('content');
+  contentDiv.innerHTML = '';
+
+  // Check for valid chapter number 
+  if(chapterNumber <= 0 ) throw new Error('Invalid chapter number');
+
+  // append HTML of chapters up to and including the current one
+  for(let i = 0; i < Math.min(chapterNumber, chapters.length); i++) {
+    contentDiv.innerHTML += chapters[i];
+  }
+}
+
 function saveDistance() {
   let kilometers = parseFloat(document.querySelector('#kilometers').value).toFixed(2); // get the distance from the input field
   localStorage.setItem("kilometers", kilometers);
+  displayChapters(parseInt(kilometers, 10));
 }
 
 function getDistance() {
   let kilometers = localStorage.getItem("kilometers");
   if(kilometers == null){
-    alert('No data found in local storage');
+    document.querySelector('#kilometers').value = 0.00;
   } else {
-    alert(kilometers + " KM");
+    document.querySelector('#kilometers').value = kilometers;
+    displayChapters(parseInt(kilometers, 10));
   }
 }
+
 </script>
+
 
 </body>
 </html> 
