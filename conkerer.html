@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      /* General Page Style */
+      body {
+          margin: 0;
+          padding: 0;
+          background-color: #2b2d2f;
+          color: #f4f3ee;
+          font-family: 'Georgia', serif;
+          line-height: 1.6;
+          max-width: 100%;
+          overflow-x: hidden;
+          scroll-behavior: smooth;
+      }
+      </style>
+  </head>
 <body>
 
-<p>Enter a distance in the text field, then click the "Save" button to save data in the local storage. Click the "Get" button to retrieve the saved data.</p>
+<p><b>Conkerer</b> stores your progress in your browser, so please remember your progress if you change device or in case the saved value is lost.</p>
 
 <p>I have run a total of <input id="kilometers" type="text" placeholder="0.00"/> kilometers</p>
 <button onclick="saveDistance()">Save</button>
 <button onclick="getDistance()">Load</button>
 
+<h1>Anahita's Story (100km)</h1>
 <div id="content" />
 
 <!-- SCRIPTS :) -->
 
+<script src="anahita.js"></script>
 <script>
 
-const chapters = [
-  `<div>This is the first chapter content</div>`,
-  `<div>This is the second chapter content</div>`,
-  `<div>This is the third chapter content</div>`,
-  // add more chapters as desired...
-];
+console.log(chapters);
 
 function displayChapters(chapterNumber) {
   // Clear previous content
@@ -30,8 +43,9 @@ function displayChapters(chapterNumber) {
   if(chapterNumber <= 0 ) throw new Error('Invalid chapter number');
 
   // append HTML of chapters up to and including the current one
-  for(let i = 0; i < Math.min(chapterNumber, chapters.length); i++) {
-    contentDiv.innerHTML += chapters[i];
+  for(let i = 1; i <= Math.min(chapterNumber, chapters.length); i++) {
+    // console.log("i is " + i + " chapternumber is " + chapterNumber)
+    contentDiv.innerHTML += "<div><p>\n" + chapters[i].replace(/(?:\r\n|\r|\n)/g, '<br>') + "\n</p></div>";
   }
 }
 
