@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter a distance in the text field, then click the "Save" button to save data in the local storage. Click the "Get" button to retrieve the saved data.</p>
+
+<input id="kilometers" type="text" placeholder="Enter distance in kilometers"/>
+<button onclick="saveDistance()">Save</button>
+<button onclick="getDistance()">Get</button>
+
+<script>
+function saveDistance() {
+  let kilometers = parseFloat(document.querySelector('#kilometers').value).toFixed(2); // get the distance from the input field
+  localStorage.setItem("kilometers", kilometers);
+}
+
+function getDistance() {
+  let kilometers = localStorage.getItem("kilometers");
+  if(kilometers == null){
+    alert('No data found in local storage');
+  } else {
+    alert(kilometers + " KM");
+  }
+}
+</script>
+
+</body>
+</html> 
