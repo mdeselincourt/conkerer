@@ -1,5 +1,3 @@
-### **The Journey of Anahita: A Quest of Trade and Destiny**
-
 #### **Part 1: Departure from Mashhad - The Vision**
 
 In the 1200s, within the vibrant city of Mashhad, a tale begins with Anahita, a fiercely independent woman in her late twenties. Anahita’s father, a respected merchant, has passed away, leaving her the responsibility of continuing his trade route. Determined to prove herself, Anahita, driven by a love for adventure and a thirst for knowledge, prepares to embark on a journey that would change her life.

@@ -1,6 +1,6 @@
 from langchain_text_splitters import MarkdownHeaderTextSplitter
 
-def loadLibraryList():
+def loadDocumentsList():
 
     with open('step2.md', 'r') as file:
         file_contents = file.read()
@@ -13,6 +13,6 @@ def loadLibraryList():
 
     documents_list = markdown_splitter.split_text(file_contents) # This creates Document objects, use .page_content
 
-    # print(md_header_documents[1].page_content)
+    #print(documents_list[1].metadata["Header 4"])
 
     return documents_list
