@@ -49,12 +49,18 @@ def llm(i):
         return c
         ###
         
+outf = open("script-output.txt", "w")
+
 for document in documentsList:
     i = ""
-    if (document.metadata):
+    if (document.metadata):     # If the document has metadata, get the contents of the header 4
         i = document.metadata["Header 4"] + "\n"
-    i = i + document.page_content
+    i = i + document.page_content # i will now be document.page_Content, prefaced by the header 4 IF there was one
     instructions = getInstructions(i)
     completion = llm(instructions)
     respo = completion.choices[0].message.content
     print(respo)
+    outf.write(document.metadata["Header 4"])
+    outf.write(respo)
+
+outf.close()
