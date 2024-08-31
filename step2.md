@@ -66,55 +66,55 @@ During their stay, Anahita saves a young girl from a river. In gratitude, the gi
 
 As the caravan prepares to move forward, Anahita knows that her journey is far from over. She must solve the riddle of the crescent moon and find the remaining relics, for her destiny—and perhaps the world's—depends on it.
 
-### **Part 11: The Mystical City of Kashgar - The Guardians of the Relics**
+#### **Part 11: The Mystical City of Kashgar - The Guardians of the Relics**
 
 The journey continues as the caravan leaves the lush valleys of the Wakhan Corridor and arrives in Kashgar, a city steeped in mystery and history, known as the gateway between East and West. Kashgar is a bustling hub of trade, filled with merchants from all corners of the world. The city's markets are alive with the vibrant colors of silk, the sounds of bargaining, and the scent of exotic spices.
 
 In Kashgar, Anahita and her companions encounter a secretive group known as the Guardians of the Relics. These mysterious figures reveal that they have been awaiting Anahita's arrival. They confirm that the crescent moon amulet she carries is part of an ancient prophecy, one that foretells the coming of a woman who would unite the world's wisdom and bring balance to the forces of light and darkness. The Guardians task her with finding the second relic, a jade staff hidden deep within the Taklamakan Desert, warning her that she is not the only one seeking the relics.
 
-### **Part 12: The Crossing of the Taklamakan Desert - The Trials of the Desert**
+#### **Part 12: The Crossing of the Taklamakan Desert - The Trials of the Desert**
 
 The Taklamakan Desert, known as the "Desert of Death," stretches out before them, a vast expanse of shifting sands and treacherous winds. Zhen, the young Chinese trader who had joined the caravan, proves to be a capable guide, though his arrogance occasionally causes friction within the group. As they traverse the unforgiving desert, Anahita begins to experience strange visions and dreams, illusions that test her resolve and challenge her understanding of reality.
 
 One night, as a sandstorm rages, Anahita is separated from the caravan and faces her deepest fears. The desert itself seems to come alive with ancient spirits, testing her willpower and determination. In the midst of this ordeal, she confronts her own doubts and insecurities, ultimately emerging stronger and more resolute in her mission.
 
-### **Part 13: The Ancient City of Dunhuang - The Temple of the Crescent Moon**
+#### **Part 13: The Ancient City of Dunhuang - The Temple of the Crescent Moon**
 
 Emerging from the trials of the desert, the caravan arrives in Dunhuang, an ancient city renowned for its Buddhist cave temples and its position as a cultural crossroads. Within Dunhuang, Anahita discovers an ancient temple dedicated to the Crescent Moon, hidden deep within the caves. The monks who guard the temple have been waiting for her, knowing that she would one day come to claim the relic.
 
 Inside the temple, Anahita finds the jade staff, the second relic of the prophecy. The monks teach her how to channel the staff's power, allowing her to harness energy and enhance her visions. She also learns that the final relic, a golden crown, is hidden somewhere in the Imperial City of Xi'an. However, the monks warn her of the Shadow of the Crescent, a dark force that seeks to claim the relics for itself.
 
-### **Part 14: The Jade Gate - The First Test**
+#### **Part 14: The Jade Gate - The First Test**
 
 The caravan continues its journey eastward, reaching the Jade Gate, the traditional gateway to China. The landscape is stark and barren, with the imposing Great Wall of China visible in the distance. As they approach the gate, Anahita senses a malevolent presence—an ominous prelude to the challenges ahead.
 
 At the gate, a dark spirit attacks, drawn by the power of the relics. Anahita, now armed with the jade staff, uses its energy to banish the spirit, but the encounter leaves her shaken. She realizes that her enemies are growing stronger, and that the true test of her abilities is yet to come.
 
-### **Part 15: The Barren Lands of the Gobi Desert - The Revelation**
+#### **Part 15: The Barren Lands of the Gobi Desert - The Revelation**
 
 The journey through the Gobi Desert is another harsh trial, with endless stretches of barren land, searing heat by day, and freezing cold by night. During a moment of meditation in the desert, Anahita experiences a profound revelation. She realizes that the crescent moon symbolizes the balance between light and darkness, and that her journey is not just about gathering relics, but about understanding and maintaining this balance to bring harmony to the world.
 
-### **Part 16: The Oasis of Hohhot - The Gathering Storm**
+#### **Part 16: The Oasis of Hohhot - The Gathering Storm**
 
 After the grueling desert crossing, the caravan reaches Hohhot, an oasis city rich in Mongol culture. The city offers a brief respite, but the peace is short-lived. Anahita learns of a dark force, known as the Shadow of the Crescent, that is also seeking the relics. Led by a mysterious figure shrouded in darkness, this force intends to use the relics to bring about chaos and destruction.
 
 Anahita and her companions prepare for the final leg of their journey, knowing that the Shadow is close behind them. They are joined by Batu, a young Mongol warrior, whose strength and honor bolster the group's resolve as they head towards the Great Wall of China and the Imperial City of Xi’an.
 
-### **Part 17: The Great Wall of China - The Rising Darkness**
+#### **Part 17: The Great Wall of China - The Rising Darkness**
 
 As they reach the Great Wall, Anahita's visions grow darker and more frequent, filled with images of war and devastation. The presence of the Shadow of the Crescent looms ever closer, and Anahita feels the weight of her responsibility more than ever. With the Great Wall as a symbol of protection and division, Anahita realizes that she must unite the relics and her companions to face the darkness ahead.
 
-### **Part 18: The Imperial City of Xi'an - The Final Relic**
+#### **Part 18: The Imperial City of Xi'an - The Final Relic**
 
 In Xi'an, the heart of the Chinese Empire, Anahita navigates the complex and treacherous politics of the imperial court. The city is grand and imposing, with its towering palaces and bustling streets. Here, she finally locates the golden crown, the last of the three relics, hidden deep within a secret chamber beneath the imperial palace.
 
 However, as she retrieves the crown, the Shadow of the Crescent strikes. A fierce battle ensues, with Anahita using the combined power of the crescent moon amulet, the jade staff, and the golden crown to fend off the darkness. The struggle is intense, but with the support of her companions and the strength she has gained throughout her journey, Anahita manages to defeat the Shadow, though not without great cost.
 
-### **Part 19: The Journey Down the Yangtze River - The Calm Before the Storm**
+#### **Part 19: The Journey Down the Yangtze River - The Calm Before the Storm**
 
 The battle with the Shadow leaves Anahita and her companions exhausted, but their journey is not yet over. They travel down the Yangtze River, the lifeblood of China, using this time of relative peace to reflect on their journey, the lessons they have learned, and the bonds they have formed. Anahita knows that while the immediate danger has passed, the final fulfillment of the prophecy still lies ahead.
 
-### **Part 20: Arrival in Shanghai - The Fulfillment of the Prophecy**
+#### **Part 20: Arrival in Shanghai - The Fulfillment of the Prophecy**
 
 The story reaches its climax as the caravan arrives in Shanghai, a bustling port city at the eastern edge of China. Here, on the shores of the East China Sea, Anahita faces the final test of her journey. The Shadow of the Crescent, though weakened, makes one last attempt to seize the relics and plunge the world into chaos.
 

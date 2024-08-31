@@ -49,18 +49,23 @@ def llm(i):
         return c
         ###
         
-outf = open("script-output.txt", "w")
+outf = open("script-output.md", "w")
 
+# For each document, put it through the LLM then write it to the output file
 for document in documentsList:
     i = ""
     if (document.metadata):     # If the document has metadata, get the contents of the header 4
         i = document.metadata["Header 4"] + "\n"
     i = i + document.page_content # i will now be document.page_Content, prefaced by the header 4 IF there was one
+   
     instructions = getInstructions(i)
+    
+    print("RUNNING LLM on " + instructions["messages"][1]["content"])
     completion = llm(instructions)
     respo = completion.choices[0].message.content
-    print(respo)
-    outf.write(document.metadata["Header 4"])
-    outf.write(respo)
+    
+    outf.write("## " + document.metadata["Header 4"] + "\n\n")
+    outf.write(respo + "\n\n")
+    outf.write("---\n\n")
 
 outf.close()
