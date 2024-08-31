@@ -16,3 +16,17 @@ def loadDocumentsList():
     #print(documents_list[1].metadata["Header 4"])
 
     return documents_list
+
+# LLM-written, unused, to help me make the output into an array
+def load_markdown(filename):
+    with open(filename, 'r') as file:
+        contents = file.read()
+
+    paragraphs = contents.split('\n\n')
+
+    return [paragraph for paragraph in paragraphs if paragraph.strip() != '']
+
+paragraphs = load_markdown('filename.md')
+
+for paragraph in paragraphs:
+    print(paragraph, '\n')
