@@ -11,7 +11,7 @@ client = OpenAI()
 
 documentsList = loadDocumentsList()
 
-production = False # <-- DEBUGGING
+production = True # <-- DEBUGGING
 
 def getInstructions(text):
     return {
@@ -64,7 +64,7 @@ for document in documentsList:
     completion = llm(instructions)
     respo = completion.choices[0].message.content
     
-    outf.write("## " + document.metadata["Header 4"] + "\n\n")
+    outf.write("### " + document.metadata["Header 4"] + "\n\n")
     outf.write(respo + "\n\n")
     outf.write("---\n\n")
 
