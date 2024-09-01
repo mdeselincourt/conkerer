@@ -31,12 +31,17 @@
 
 <!-- SCRIPTS :) -->
 
-<script src="anahita.js"></script>
+<script src="content-array-file.js"></script>
 <script>
 
-console.log(chapters);
+const raceDistanceKm = 100;
 
-function displayChapters(chapterNumber) {
+function displayChapters(kilometers) {
+
+  // Calculate chapter number proportionally
+  chapterNumber = kilometers * (chapters.length / raceDistanceKm)
+
+
   // Clear previous content
   const contentDiv = document.getElementById('content');
   contentDiv.innerHTML = '';
@@ -44,9 +49,12 @@ function displayChapters(chapterNumber) {
   // Check for valid chapter number 
   if(chapterNumber <= 0 ) throw new Error('Invalid chapter number');
 
+  console.info("Story has total " + chapters.length + " chapters")
+
+  
   // append HTML of chapters up to and including the current one
-  for(let i = 1; i <= Math.min(chapterNumber, chapters.length); i++) {
-    // console.log("i is " + i + " chapternumber is " + chapterNumber)
+  for(let i = 1; i < Math.min(chapterNumber, chapters.length); i++) {
+    // console.info("i is " + i + " chapternumber is " + chapterNumber)
     contentDiv.innerHTML += "<div><p>\n" + chapters[i].replace(/(?:\r\n|\r|\n)/g, '<br>') + "\n</p></div>";
   }
 }
@@ -54,7 +62,7 @@ function displayChapters(chapterNumber) {
 function saveDistance() {
   let kilometers = parseFloat(document.querySelector('#kilometers').value).toFixed(2); // get the distance from the input field
   localStorage.setItem("kilometers", kilometers);
-  displayChapters(parseInt(kilometers, 10));
+  displayChapters(parseInt(kilometers, 10)); // Base 10!
 }
 
 function getDistance() {
@@ -63,7 +71,7 @@ function getDistance() {
     document.querySelector('#kilometers').value = 0.00;
   } else {
     document.querySelector('#kilometers').value = kilometers;
-    displayChapters(parseInt(kilometers, 10));
+    displayChapters(parseInt(kilometers, 10)); // Base 10!
   }
 }
 
